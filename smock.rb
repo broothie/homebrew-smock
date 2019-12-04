@@ -2,14 +2,14 @@
 class Smock < Formula
   desc ""
   homepage ""
-  version "0.1.7"
+  version "0.1.8"
 
   if OS.mac?
-    url "https://github.com/broothie/smock/releases/download/v0.1.7/smock_0.1.7_darwin_amd64.tar.gz"
-    sha256 "55cdd88a3585b7008b35b6b4df2376bf77242c15df756f4c80c0366fda78031c"
+    url "https://github.com/broothie/smock/releases/download/v0.1.8/smock_0.1.8_darwin_amd64.tar.gz"
+    sha256 "d37f926691df0bca7dee813caa3b81d767fcc9f7e5d7f088868be41b65303411"
   elsif OS.linux?
-    url "https://github.com/broothie/smock/releases/download/v0.1.7/smock_0.1.7_linux_amd64.tar.gz"
-    sha256 "735adf055b707fc73eeb7b61b51e7cb9d9206161decd4510e14523a8cba3d6e4"
+    url "https://github.com/broothie/smock/releases/download/v0.1.8/smock_0.1.8_linux_amd64.tar.gz"
+    sha256 "0ad266230c065fe1e436aba3f0d43740f02e83c3b6b3cb8c85df599638d26e8c"
   end
 
   def install
