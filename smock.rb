@@ -2,16 +2,16 @@
 class Smock < Formula
   desc "smock - a server mock"
   homepage "https://github.com/broothie/smock"
-  version "0.1.11"
+  version "0.1.18"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/broothie/smock/releases/download/v0.1.11/smock_0.1.11_darwin_amd64.tar.gz"
-    sha256 "7a0edc4fd197b722eeb0ac96646b0f7ab58365d052201868e3fc48a730d134fa"
+    url "https://github.com/broothie/smock/releases/download/v0.1.18/smock_0.1.18_darwin_amd64.tar.gz"
+    sha256 "0a8f097ec80a89a573ec739aaa88f85020a77e984652c2424eaa4f4240872455"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/broothie/smock/releases/download/v0.1.11/smock_0.1.11_linux_amd64.tar.gz"
-      sha256 "d52871bb5b934db70441b3a8bf1e054a8e7b979477ea6458f1995b249f9ec864"
+      url "https://github.com/broothie/smock/releases/download/v0.1.18/smock_0.1.18_linux_amd64.tar.gz"
+      sha256 "3a95512b330da82843007c83aa3302fd0765ca2aab1364f5935f6e2d7d9157e5"
     end
   end
 
